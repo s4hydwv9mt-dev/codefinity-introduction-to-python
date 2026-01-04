@@ -1,0 +1,7 @@
+# Tuple containing various data types and a nested list
+apple_details = ("apple", 34, True, 1.99, "Fuji", ["Washington", "California", "Michigan"]) 
+print(apple_details)
+
+# Updating the mutable python list even while nested in an immutable data type (tuple)
+apple_details[5][2] = "Pennsylvania"
+print(apple_details)
